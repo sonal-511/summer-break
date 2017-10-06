@@ -43,6 +43,9 @@ public class demo extends HttpServlet {
         {   p.print("hello people");
             p.print("welcome");
             p.print("hey there");
+            p.print("half way done..trying git");
+            p.print(" second time done");
+            
         }
         else
             p.print("error");
