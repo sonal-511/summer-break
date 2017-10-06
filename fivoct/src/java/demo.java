@@ -42,6 +42,7 @@ public class demo extends HttpServlet {
         if(l.size()==3)
         {   p.print("hello people");
             p.print("welcome");
+            p.print("hey there");
         }
         else
             p.print("error");
