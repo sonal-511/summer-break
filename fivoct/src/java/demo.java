@@ -33,11 +33,16 @@ public class demo extends HttpServlet {
        PrintWriter p=response.getWriter();
         LinkedList<String> l=new LinkedList<>();
         String s=request.getParameter("name");
+        String s2=request.getParameter("class");
         String s1=request.getParameter("section");
+    
         l.add(s);
         l.add(s1);
-        if(l.size()==2)
+        l.add(s2);
+        if(l.size()==3)
+        {   p.print("hello people");
             p.print("welcome");
+        }
         else
             p.print("error");
        
